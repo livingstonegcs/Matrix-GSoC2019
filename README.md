@@ -1,8 +1,12 @@
 # Matrix Library:
 ## This is an implementation of generic matrix library in cpp. 
+
 It contains two programs:
 - LIBRARY HEADER FILE
 - TEST PROGRAM
+
+```To see the demonstration run the test file by executing "g++ -std=c++11 test_matrix.cpp"```
+
 ---
 #### 1. LIBRARY: `matrix_header.hpp` contains the implementation of the library under the namespace `matrix`
 - **Creation/Declaration of a matrix** 
