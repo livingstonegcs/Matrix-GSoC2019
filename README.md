@@ -2,7 +2,7 @@
 ## This is an implementation of generic matrix library in cpp. 
 
 It contains two programs:
-- LIBRARY HEADER FILE
+- LIBRARY HEADER
 - TEST PROGRAM
 
 ```To see the demonstration run the test file by executing "g++ -std=c++11 test_matrix.cpp"```
@@ -32,10 +32,10 @@ It contains two programs:
   - `^=` Performs standard matrix multiplication with self and stores the value
   - `<<` Outputs the matrices as each row in newline and each column element of a row separated by spaces
   ---
-- **Functionalities implemented** 
+- **Additional Functionalities implemented** 
   - FLEXIBLE DATATYPE: A matrix if gets multiplied by another matrix it changes the datatype to the highest attainable datatype:
     >Eg: Operation between `matrix<double>` and `matrix<int>` will give a `matrix<long>` and accordingly the datatype will be calculated
-  - Dimension malleable `^=` operation: The dimension of a matrix can change for matrix multiplication and self assignment under this operator.
+  - Dimension malleable on the `^=` operation: The dimension of a matrix can change for matrix multiplication and self assignment under this operator.
     >If a matrix A of dimension (2, 3) undergoes matrix multiplication with B of dimension(3, 5) and self assignment then matrix A will attain dimension (2, 5)
   
 ---
